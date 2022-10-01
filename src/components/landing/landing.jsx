@@ -2,6 +2,8 @@ import React from "react";
 import "./landing.css";
 import { Link } from "react-router-dom";
 import LandingPageImage from "../../img/landingPageImage";
+import Button from "@mui/material/Button";
+import { createTheme } from "@mui/material/styles";
 
 const Landing = () => {
   return (
@@ -19,9 +21,18 @@ const Landing = () => {
               Easily host and share events with your friends across any social
               media.
             </p>
-            <p>Button</p>
+
             <nav>
-              <Link to="/create">Create my event</Link>
+              <Link to="/create" style={{ textDecoration: "none" }}>
+                {" "}
+                <Button
+                  variant="contained"
+                  style={{ textTransform: "none" }}
+                  className="button"
+                >
+                  Create my event
+                </Button>
+              </Link>
             </nav>
             <nav>
               <Link to="/event">Event Details</Link>

@@ -1,3 +1,5 @@
+import "./App.css";
+
 import CreateEvent from "./components/createEvent/createEvent";
 import EventDetails from "./components/eventDetails/eventDetails";
 import Landing from "./components/landing/landing";
