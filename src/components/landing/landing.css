@@ -1,3 +1,32 @@
-h1 {
+
+
+.landing {
+    display: flex;
+    padding: 50px;
+    
+}
+
+.landing-left-wrapper {
+    padding: 50px;
+}
+
+.landing-right-wrapper {
+    margin-left: auto;
+display: flex;
+
+    width: 25%;
+    padding: 50px;
+    border-style: dashed;
+}
+
+
+
+.landing-right-content {
+    text-align: right;
+}
+
+.landing-right-content > h1{
     color: red;
+    border-style: solid;
+    text-align: right;
 }
