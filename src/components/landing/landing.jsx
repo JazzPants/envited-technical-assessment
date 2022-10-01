@@ -16,7 +16,9 @@ const Landing = () => {
         </div>
         <div className="landing-right-wrapper">
           <div className="landing-right-content">
-            <h1>Imagine if SnapChat had events.</h1>
+            <h1>
+              Imagine if <span id="snapchat-text">SnapChat</span> had events.
+            </h1>
             <p>
               Easily host and share events with your friends across any social
               media.
@@ -33,9 +35,6 @@ const Landing = () => {
                   Create my event
                 </Button>
               </Link>
-            </nav>
-            <nav>
-              <Link to="/event">Event Details</Link>
             </nav>
           </div>
         </div>

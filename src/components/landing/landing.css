@@ -25,7 +25,6 @@ display: flex;
 
     width: 25%;
     padding: 50px;
-    border-style: dashed;
 }
 
 
@@ -35,8 +34,10 @@ display: flex;
 }
 
 .landing-right-content > h1{
-    color: red;
-    border-style: solid;
     text-align: right;
+}
+
+#snapchat-text {
+    color: linear-gradient(90deg, #8456EC 10%, #E87BF8 90%);
 }
 
