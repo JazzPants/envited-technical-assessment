@@ -1,0 +1,24 @@
+#home-button-hello {
+    background: #E61445;
+    color: #F6F2FF;
+}
+
+
+#back-button {
+    background: #FFD7E0;
+    color: #F6F2FF;
+}
+
+.event-details {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #240D57;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 60vh;
+    padding: 30px;
+}

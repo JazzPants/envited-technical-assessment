@@ -38,6 +38,8 @@ display: flex;
 }
 
 #snapchat-text {
-    color: linear-gradient(90deg, #8456EC 10%, #E87BF8 90%);
+    background: -webkit-linear-gradient(0deg, #8456EC 10%, #E87BF8 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
